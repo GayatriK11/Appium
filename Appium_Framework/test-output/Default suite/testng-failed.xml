@@ -5,7 +5,7 @@
     <classes>
       <class name="Demo.Web1">
         <methods>
-          <include name="testcase2"/>
+          <include name="testcase4"/>
           <include name="bt"/>
         </methods>
       </class> <!-- Demo.Web1 -->

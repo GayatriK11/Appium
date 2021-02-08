@@ -69,8 +69,8 @@ public class capability {
 		FileReader fis=new FileReader(System.getProperty("user.dir")+"//src//main//java//global.properties");
 		Properties pro=new Properties();
 		pro.load(fis);
-		appPackage=pro.getProperty("appPackage");
-		appActivity=pro.getProperty("appActivity");
+		appPackage=pro.getProperty("Assign_appPackage");
+		appActivity=pro.getProperty("Assign_appActivity");
 		deviceName=pro.getProperty("deviceName");
 		platformName=pro.getProperty("platformName");
 		chromeExecutable=pro.getProperty("chromeExecutable");
